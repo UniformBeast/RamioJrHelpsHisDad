@@ -12,7 +12,8 @@ public class Collectables : MonoBehaviour
     private void Start()
     {
         //PlayerPrefs.SetInt("keyCards", 0);
-       //  PlayerPrefs.SetInt("powertokens", 0);
+       
+        PlayerPrefs.SetInt("powertokens", 0);
         KCText.text = "X " + PlayerPrefs.GetInt("keyCards");
     }
 
