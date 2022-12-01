@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class Ablities : MonoBehaviour
 {
-  
+
     // Update is called once per frame
     void Update()
     {
-      if(PlayerPrefs.GetInt("powertokens") >=1 )
+        if (PlayerPrefs.GetInt("powertokens") >= 1)
         {
             GetComponent<PlatformerMovement>().jumpSpeed = 5.0f;
 
-
-
-
         }
+         if (PlayerPrefs.GetInt("powertokens") >= 2)
+        {
+            GetComponent<PlatformerMovement>().moveSpeed = 3.5f;
+        }
+
     }
 }

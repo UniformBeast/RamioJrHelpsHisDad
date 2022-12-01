@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformerMovement : MonoBehaviour
 {
     [SerializeField]
-    float moveSpeed = 1.0f;
+ public float moveSpeed = 1.0f;
     [SerializeField]
   public  float jumpSpeed = 1.0f;
     bool grounded = false;
