@@ -18,7 +18,7 @@ public class PlatformerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-       // animator = GetComponent<Animator>();
+        animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
@@ -33,24 +33,24 @@ public class PlatformerMovement : MonoBehaviour
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             grounded = false;
-          // animator.SetTrigger("jump");
+           animator.SetTrigger("jump");
         }
         if(rb.velocity.y < -0.1f && !grounded)
         {
-          //  animator.SetTrigger("fall");
+          animator.SetTrigger("fall");
 
         }
-     //   animator.SetFloat("xImput", moveX);
-    //    animator.SetBool("grounded", grounded);
+        animator.SetFloat("xImput", moveX);
+        animator.SetBool("grounded", grounded);
         if (moveX < 0)
         {
             attack.transform.rotation = Quaternion.Euler(0, 180f, 0);
-           // spriteRenderer.flipX = true;
+            spriteRenderer.flipX = true;
         }
         else if (moveX > 0)
         {
             attack.transform.rotation = Quaternion.Euler(0, 0, 0);
-          //  spriteRenderer.flipX = false;
+            spriteRenderer.flipX = false;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
