@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Ablities : MonoBehaviour
 {
-
+   public Animator animator;
     // Update is called once per frame
     void Update()
     {
@@ -17,6 +17,12 @@ public class Ablities : MonoBehaviour
         {
             GetComponent<PlatformerMovement>().moveSpeed = 3.5f;
         }
-
+         if(PlayerPrefs.GetInt("powertokens") >= 3)
+        {
+            if (Input.GetMouseButtonDown(1))
+            {
+               animator.SetTrigger("Attack");
+            }
+        }
     }
 }

@@ -10,6 +10,7 @@ public class PlatformerMovement : MonoBehaviour
   public  float jumpSpeed = 1.0f;
     bool grounded = false;
 
+    public GameObject attack;
     Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteRenderer;
@@ -39,16 +40,18 @@ public class PlatformerMovement : MonoBehaviour
           //  animator.SetTrigger("fall");
 
         }
-       /* animator.SetFloat("xImput", moveX);
-        animator.SetBool("grounded", grounded);
+     //   animator.SetFloat("xImput", moveX);
+    //    animator.SetBool("grounded", grounded);
         if (moveX < 0)
         {
-            spriteRenderer.flipX = true;
+            attack.transform.rotation = Quaternion.Euler(0, 180f, 0);
+           // spriteRenderer.flipX = true;
         }
         else if (moveX > 0)
         {
-            spriteRenderer.flipX = false;
-        }*/
+            attack.transform.rotation = Quaternion.Euler(0, 0, 0);
+          //  spriteRenderer.flipX = false;
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
