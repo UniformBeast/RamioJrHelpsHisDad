@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 84b1081700eb0b442892ce05df721597
+guid: 7f8c0463f5446ad4989a6074009aad80
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -71,7 +71,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,7 +106,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playow idle-sway-_0
+      name: playow idle-sway-grounded_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +120,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bd9fafb808ff434984bfcf2162859ea
-      internalID: 1841917025
+      spriteID: 10df44ed8147e9b4398f52c5f2b96281
+      internalID: 936104373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_1
+      name: playow idle-sway-grounded_1
       rect:
         serializedVersion: 2
         x: 64
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c0037294f795314eb0faa9be0d11bc7
-      internalID: 658527291
+      spriteID: 0ce4528ceefe7724b87b30e298ba2291
+      internalID: 811646256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_2
+      name: playow idle-sway-grounded_2
       rect:
         serializedVersion: 2
         x: 128
@@ -162,14 +162,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed22611cf8f7b65438e511c94d72eba7
-      internalID: -726335894
+      spriteID: 583e03f8448eabd4fb35c762c46e2ea7
+      internalID: 350714922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_3
+      name: playow idle-sway-grounded_3
       rect:
         serializedVersion: 2
         x: 0
@@ -183,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34f27621a127dd34ea22c98f46e88267
-      internalID: -937666705
+      spriteID: 35615032c0ff3a042b8c38e55cb311e4
+      internalID: -744472916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_4
+      name: playow idle-sway-grounded_4
       rect:
         serializedVersion: 2
         x: 64
@@ -204,14 +204,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f94d25f46b99ba4eb947556f9176339
-      internalID: -471238968
+      spriteID: dcbf324aee955f14f8c8ad29fdf95c05
+      internalID: 468722331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_5
+      name: playow idle-sway-grounded_5
       rect:
         serializedVersion: 2
         x: 128
@@ -225,14 +225,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67094cee24cb6314a85ed5ef866ef4ee
-      internalID: -906731738
+      spriteID: 06aa828a66ee0de4698193667d7ab6aa
+      internalID: -915145553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_6
+      name: playow idle-sway-grounded_6
       rect:
         serializedVersion: 2
         x: 0
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a5fa06e4fe5e14ea8dc1d4c7890b0e
-      internalID: -192575186
+      spriteID: 291298e233e544445873de98211f04bc
+      internalID: -423925870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_7
+      name: playow idle-sway-grounded_7
       rect:
         serializedVersion: 2
         x: 64
@@ -267,14 +267,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14661eabce033ff4ba4e8f7418dbdb07
-      internalID: -906364593
+      spriteID: b293d58f356af2746a11dcf231ee1f3a
+      internalID: 1793478769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_8
+      name: playow idle-sway-grounded_8
       rect:
         serializedVersion: 2
         x: 128
@@ -288,14 +288,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6c907ced736ef4e815f3ffac8daa3a
-      internalID: -1571924153
+      spriteID: 5ba3cdcdef1f49e4a9a2f01d1f1ae2fa
+      internalID: 110476340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_9
+      name: playow idle-sway-grounded_9
       rect:
         serializedVersion: 2
         x: 0
@@ -309,14 +309,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 253f1c8ab37e5d543acbf0efa3c59530
-      internalID: 843801820
+      spriteID: 4f34104fa81911e45a748a1f25d9596b
+      internalID: -687317307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_10
+      name: playow idle-sway-grounded_10
       rect:
         serializedVersion: 2
         x: 64
@@ -330,14 +330,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 365761289a63f3847b062a4fec16b700
-      internalID: 2124223011
+      spriteID: 03df9de4574d6db45a5591f30421671a
+      internalID: -815979436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playow idle-sway-_11
+      name: playow idle-sway-grounded_11
       rect:
         serializedVersion: 2
         x: 128
@@ -351,8 +351,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bb0a6a104c763d4c861c549d7e921c7
-      internalID: -1542147092
+      spriteID: efe7ad0f222f025458c35acdcfbd1053
+      internalID: 924149953
       vertices: []
       indices: 
       edges: []
@@ -368,18 +368,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      playow idle-sway-_11: -1542147092
-      playow idle-sway-_4: -471238968
-      playow idle-sway-_6: -192575186
-      playow idle-sway-_2: -726335894
-      playow idle-sway-_5: -906731738
-      playow idle-sway-_7: -906364593
-      playow idle-sway-_9: 843801820
-      playow idle-sway-_3: -937666705
-      playow idle-sway-_0: 1841917025
-      playow idle-sway-_8: -1571924153
-      playow idle-sway-_1: 658527291
-      playow idle-sway-_10: 2124223011
+      playow idle-sway-grounded_2: 350714922
+      playow idle-sway-grounded_5: -915145553
+      playow idle-sway-grounded_1: 811646256
+      playow idle-sway-grounded_3: -744472916
+      playow idle-sway-grounded_11: 924149953
+      playow idle-sway-grounded_7: 1793478769
+      playow idle-sway-grounded_10: -815979436
+      playow idle-sway-grounded_0: 936104373
+      playow idle-sway-grounded_4: 468722331
+      playow idle-sway-grounded_9: -687317307
+      playow idle-sway-grounded_8: 110476340
+      playow idle-sway-grounded_6: -423925870
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
