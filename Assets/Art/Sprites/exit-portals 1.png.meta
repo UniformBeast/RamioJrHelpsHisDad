@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3cd13d33b57957a47b16a8855480a470
+guid: b8bf460f019dfeb419c0720b418bea52
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,17 +102,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: HiYAh_0
+      name: exit-portals_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 64
-        height: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 590bd117985120447a0046f3efbbee37
-      internalID: 167774957
+      spriteID: 78c493e4905bf7c4d94c14b4d070c3bd
+      internalID: -709397050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HiYAh_1
+      name: exit-portals_1
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 64
-        height: 32
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 691a0e1060e970a49abbbfff2f2b1755
-      internalID: -812624465
+      spriteID: aa8a44a17022d7f45864602d2a2c9d75
+      internalID: 1575523254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HiYAh_2
+      name: exit-portals_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 128
-        width: 64
-        height: 32
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,125 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa1cb1159038f3440b631411b578796d
-      internalID: -1217800248
+      spriteID: f1236793b79feac459650c00b161bf6c
+      internalID: 259361442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HiYAh_3
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 128
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81133db965207bd42a8091f30a8f4929
-      internalID: 1409110532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HiYAh_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d551b36b5b7d65a42be04180e25e828d
-      internalID: 1501296632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HiYAh_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9941e648d5a7b0a448aa6ba964710d81
-      internalID: -1355890998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HiYAh_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63c349da91d750f4f8283d364a916c70
-      internalID: 1987362880
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HiYAh_7
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 64
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf1024c40738ff34090d7119a8daca99
-      internalID: -729194522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: HiYAh_8
+      name: exit-portals_3
       rect:
         serializedVersion: 2
         x: 0
         y: 32
-        width: 64
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d56130de57285554da4f7932c924b65d
-      internalID: -1123159391
+      spriteID: 71c02e18bbfa3f04c9312b8058fe853f
+      internalID: -1624089767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HiYAh_9
+      name: exit-portals_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 32
-        width: 64
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,20 +216,104 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f72ae5ffd1733884a81e322c8b3b1359
-      internalID: 1762934612
+      spriteID: 0b4f5703b3419ba46a256f29ff126c4b
+      internalID: -7640278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: HiYAh_10
+      name: exit-portals_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef63a598367b07b438e702b5b4479668
+      internalID: 328456337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c51148cd08d3f204e829d11e6c5b0597
+      internalID: 1521922508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e237ffcfd3a45fa4fb5724cf43ac46a0
+      internalID: 133046820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc71b9e3078a51542aa70681f1c15095
+      internalID: 1245385241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_9
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 64
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,8 +321,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9099a393c0958b0428e49bdf9aa6c8ac
-      internalID: -1833779374
+      spriteID: 7bed642819a7e0e4fb89d98fdfff44f4
+      internalID: -1028296652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb689233f37bd347a2fb465599ca1b9
+      internalID: 1984551025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: exit-portals_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dbf7f02bd1c874e8ccd79fa6b37a35
+      internalID: -1107964554
       vertices: []
       indices: 
       edges: []
@@ -347,17 +380,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      HiYAh_5: -1355890998
-      HiYAh_1: -812624465
-      HiYAh_8: -1123159391
-      HiYAh_9: 1762934612
-      HiYAh_10: -1833779374
-      HiYAh_2: -1217800248
-      HiYAh_7: -729194522
-      HiYAh_3: 1409110532
-      HiYAh_6: 1987362880
-      HiYAh_4: 1501296632
-      HiYAh_0: 167774957
+      exit-portals_11: -1107964554
+      exit-portals_5: 328456337
+      exit-portals_6: 1521922508
+      exit-portals_1: 1575523254
+      exit-portals_7: 133046820
+      exit-portals_4: -7640278
+      exit-portals_2: 259361442
+      exit-portals_8: 1245385241
+      exit-portals_3: -1624089767
+      exit-portals_10: 1984551025
+      exit-portals_9: -1028296652
+      exit-portals_0: -709397050
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
