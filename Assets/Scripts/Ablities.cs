@@ -8,14 +8,14 @@ public class Ablities : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt("powertokens") >= 1)
+        if (PlayerPrefs.GetInt("powertokens") >= 2)
         {
             GetComponent<PlatformerMovement>().jumpSpeed = 5.0f;
 
         }
-         if (PlayerPrefs.GetInt("powertokens") >= 2)
+         if (PlayerPrefs.GetInt("powertokens") >= 1)
         {
-            GetComponent<PlatformerMovement>().moveSpeed = 3.5f;
+            GetComponent<PlatformerMovement>().moveSpeed = 5.0f;
         }
          if(PlayerPrefs.GetInt("powertokens") >= 3)
         {
