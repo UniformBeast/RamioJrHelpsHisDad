@@ -9,6 +9,9 @@ TagManager:
   - Gems
   - KeyCard
   - PowerToken
+  - Spike
+  - A2
+  - A1
   layers:
   - Default
   - TransparentFX
