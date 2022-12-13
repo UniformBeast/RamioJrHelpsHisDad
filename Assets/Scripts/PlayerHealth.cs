@@ -23,6 +23,11 @@ public class PlayerHealth : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.tag == "Spike")
+        {
+            health--;
+            slider.value = health;
+        }
         if (collision.gameObject.tag == "Enemy")
         {
             health--;
