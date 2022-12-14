@@ -12,6 +12,12 @@ TagManager:
   - Spike
   - A2
   - A1
+  - B2
+  - B1
+  - C1
+  - C2
+  - Whip
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -20,8 +26,8 @@ TagManager:
   - Water
   - UI
   - Whip
-  - 
-  - 
+  - Enemy
+  - Player
   - 
   - 
   - 

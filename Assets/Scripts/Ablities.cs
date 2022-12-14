@@ -13,11 +13,11 @@ public class Ablities : MonoBehaviour
             GetComponent<PlatformerMovement>().jumpSpeed = 5.0f;
 
         }
-         if (PlayerPrefs.GetInt("powertokens") >= 1)
+         if (PlayerPrefs.GetInt("powertokens") >= 3)
         {
             GetComponent<PlatformerMovement>().moveSpeed = 5.0f;
         }
-         if(PlayerPrefs.GetInt("powertokens") >= 3)
+         if(PlayerPrefs.GetInt("powertokens") >= 1)
         {
             if (Input.GetMouseButtonDown(1))
             {
