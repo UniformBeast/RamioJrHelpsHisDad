@@ -17,9 +17,21 @@ public class NextLevel : MonoBehaviour
         {
             SceneManager.LoadScene("Level2A");
         }
-        if (collision.gameObject.CompareTag("A3"))
+        if (collision.gameObject.CompareTag("B1"))
         {
-            SceneManager.LoadScene("Level3A");
+            SceneManager.LoadScene("Level1B");
+        }
+        if (collision.gameObject.CompareTag("B2"))
+        {
+            SceneManager.LoadScene("Level2B");
+        }
+        if (collision.gameObject.CompareTag("C1"))
+        {
+            SceneManager.LoadScene("Level1C");
+        }
+        if (collision.gameObject.CompareTag("C2"))
+        {
+            SceneManager.LoadScene("Level2C");
         }
     }
 }
