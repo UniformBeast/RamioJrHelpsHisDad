@@ -24,8 +24,9 @@ public class PlayerHealth : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
        
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy" && gameObject.layer != LayerMask.NameToLayer("Whip"))
         {
+            Debug.Log("Die");
             health--;
             slider.value = health;
         }
