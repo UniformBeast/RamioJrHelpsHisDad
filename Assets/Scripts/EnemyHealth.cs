@@ -24,21 +24,19 @@ public class EnemyHealth : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
-        if (collision.collider.gameObject.layer == LayerMask.NameToLayer("Whip"))
+        if (collision.tag == "Whip")
         {
-            if (collision.collider.gameObject.layer != LayerMask.NameToLayer("Player"))
-            {
-                Debug.Log("Hit");
-                health--;
-                slider.value = health;
-            }
+ Debug.Log("Hit");
+        health--;
+        slider.value = health;
         }
-
-
-
+       
     }
 
+
+
 }
+
+
