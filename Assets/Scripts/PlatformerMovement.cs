@@ -29,7 +29,7 @@ public class PlatformerMovement : MonoBehaviour
         Vector2 velocity = rb.velocity;
         velocity.x = moveX * moveSpeed;
         rb.velocity = velocity;
-        if (Input.GetButton("Jump")  && grounded)
+        if (Input.GetButtonDown("Jump")  && grounded)
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
             grounded = false;

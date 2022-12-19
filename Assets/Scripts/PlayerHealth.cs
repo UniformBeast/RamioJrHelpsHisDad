@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.SetInt("SavedScene", SceneManager.GetActiveScene().buildIndex);
         slider.maxValue = health;
         slider.value = health;
     }
@@ -19,7 +20,10 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+         if (health <= 0)
+        {
+            SceneManager.LoadScene("death");
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -29,7 +33,9 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Die");
             health--;
             slider.value = health;
+            
         }
+      
     }
     private void OnCollisionStay2D(Collision2D collision)
     {

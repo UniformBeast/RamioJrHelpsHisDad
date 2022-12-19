@@ -19,10 +19,13 @@ public class MAinMenu : MonoBehaviour
 
     }
 
+    public void Restart()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("SavedScene"));
+    }
 
 
 
 
 
-  
 }
