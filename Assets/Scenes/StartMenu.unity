@@ -160,7 +160,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -30}
+  m_AnchoredPosition: {x: 21, y: -49}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &13717737
@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1718308293}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1516176132}
+        m_TargetAssemblyTypeName: MAinMenu, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &13717738
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1448,8 +1460,8 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -2038,8 +2050,8 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -2138,8 +2150,8 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 6
-      m_TileMatrixIndex: 0
+      m_TileSpriteIndex: 5
+      m_TileMatrixIndex: 3
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
@@ -2178,7 +2190,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 5
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -2633,9 +2645,9 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 18
     m_Data: {fileID: -1337005409, guid: da4a81b9ce7168d4e8785de397785daf, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 67
+  - m_RefCount: 4
+    m_Data: {fileID: -424259699, guid: 23b263f51bb8b5f44bd424f1d8da4b27, type: 3}
+  - m_RefCount: 63
     m_Data: {fileID: -862676898, guid: da4a81b9ce7168d4e8785de397785daf, type: 3}
   - m_RefCount: 10
     m_Data: {fileID: -48548235, guid: da4a81b9ce7168d4e8785de397785daf, type: 3}
@@ -2644,7 +2656,7 @@ Tilemap:
   - m_RefCount: 6
     m_Data: {fileID: -1750059706, guid: da4a81b9ce7168d4e8785de397785daf, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 143
+  - m_RefCount: 140
     m_Data:
       e00: 1
       e01: 0
@@ -2698,7 +2710,7 @@ Tilemap:
       e31: 0
       e32: 4.5904e-41
       e33: 0
-  - m_RefCount: 32
+  - m_RefCount: 35
     m_Data:
       e00: -1
       e01: 0
@@ -3024,7 +3036,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1263606379}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1516176132}
+        m_TargetAssemblyTypeName: MAinMenu, Assembly-CSharp
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1459300986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3075,6 +3099,7 @@ GameObject:
   - component: {fileID: 1516176130}
   - component: {fileID: 1516176129}
   - component: {fileID: 1516176128}
+  - component: {fileID: 1516176132}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -3168,6 +3193,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1516176132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516176127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe99e1778ad50a74f9cce64b939493a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1589699448
 GameObject:
   m_ObjectHideFlags: 0
@@ -3203,10 +3240,10 @@ RectTransform:
   m_Father: {fileID: 1516176131}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: 406, y: -212.61871}
-  m_SizeDelta: {x: 160, y: 56.9065}
+  m_SizeDelta: {x: -1760, y: 56.9065}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589699450
 MonoBehaviour:
