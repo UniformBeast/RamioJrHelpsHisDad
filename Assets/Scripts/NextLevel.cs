@@ -33,5 +33,13 @@ public class NextLevel : MonoBehaviour
         {
             SceneManager.LoadScene("Level2C");
         }
+        if (collision.gameObject.CompareTag("Hole"))
+        {
+            SceneManager.LoadScene("Hole");
+        }
+        if (collision.gameObject.CompareTag("NukeCylo"))
+        {
+            SceneManager.LoadScene("Nukesilo");
+        }
     }
 }

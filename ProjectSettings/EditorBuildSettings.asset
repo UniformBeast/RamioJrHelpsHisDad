@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level-C/Level1C.unity
     guid: d9df5904270a79a4c8658f093d04ec6d
   - enabled: 1
+    path: Assets/Scenes/Level-C/Hole.unity
+    guid: 75b701f8407fe464dad38412f3075f6e
+  - enabled: 1
     path: Assets/Scenes/Level-C/Level2C.unity
     guid: 97340a020235edc47a636242953689a2
   - enabled: 0
@@ -44,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/death.unity
     guid: c412e264b8fdc2940af2defe43c464ab
+  - enabled: 1
+    path: Assets/Scenes/Nukesilo.unity
+    guid: a71266434d9335b4c8b69dffd2966761
   m_configObjects: {}
